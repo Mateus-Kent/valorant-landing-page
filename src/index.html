@@ -27,35 +27,106 @@
   </head>
   <body>
     <header>
+      <div class="logo">
+        <img class="logoImg" src="./assets/logo.svg" alt="Logo Valorant" />
+      </div>
 
-     <div class="logo">
-      <img class="logoImg" src="./assets/logo.svg" alt="Logo Valorant">
-     </div>
-
-     <div class="menu">
-      <strong class="optionMenu">Home</strong>
-      <strong class="optionMenu">Sobre o jogo</strong>
-      <strong class="optionMenu">Agentes</strong>
-     </div>
-
+      <div class="menu">
+        <strong class="optionMenu">
+          <a class="linkPage" href="#home">HOME</a>
+        </strong>
+        <strong class="optionMenu">
+          <a class="linkPage" href="#about">SOBRE O JOGO</a>
+        </strong>
+        <strong class="optionMenu">
+          <a class="linkPage" href="#agents">AGENTES</a>
+        </strong>
+      </div>
     </header>
 
-    <main>
-     <img class="mainImg" src="./assets/backgroundMain.svg" alt="">
+    <main id="home">
+      <img class="mainImg" src="./assets/backgroundMain.png" alt="" />
 
-     <div class="socialMedias">
-      <div class="line"></div>
-      <i class="ph-youtube-logo-fill" style="color: #FF4655; margin-left: 10px; margin-right: 10px;"></i>
-      <i class="ph-instagram-logo-fill" style="color: #FF4655; margin-right: 10px;"></i>
-      <i class="ph-twitch-logo-fill" style="color: #FF4655; margin-right: 10px;"></i>
-      <i class="ph-reddit-logo-fill" style="color: #FF4655; margin-right: 10px;"></i>
-      <i class="ph-twitter-logo-fill" style="color: #FF4655; margin-right: 10px;"></i>
-      <div class="line"></div>
-     </div>
-     
+      <div class="socialMedias">
+        <div class="line"></div>
+        <a href="https://www.youtube.com/c/PlayVALORANT" target="_blank"
+          ><i
+            class="ph-youtube-logo-fill"
+            style="
+              color: #ff4655;
+              margin-left: 10px;
+              margin-right: 10px;
+              cursor: pointer;
+            "
+          ></i
+        ></a>
+
+        <a
+          href="https://www.instagram.com/playvalorantofficial/"
+          target="_blank"
+        >
+          <i
+            class="ph-instagram-logo-fill"
+            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+          ></i>
+        </a>
+
+        <a href="https://www.twitch.tv/valorant" target="_blank">
+          <i
+            class="ph-twitch-logo-fill"
+            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+          ></i
+        ></a>
+
+        <a href="https://www.reddit.com/r/VALORANT/" target="_blank"
+          ><i
+            class="ph-reddit-logo-fill"
+            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+          ></i
+        ></a>
+
+        <a href="https://twitter.com/playvalorant" target="_blank">
+          <i
+            class="ph-twitter-logo-fill"
+            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+          ></i
+        ></a>
+
+        <div class="line"></div>
+      </div>
     </main>
-    <section></section>
-    <section></section>
+
+    <section id="about">
+      <h1 class="explanationTitle">Valorant: oque é ?</h1>
+      <p class="explanation">
+        Misture o seu estilo e experiência em um cenário global e competitivo.
+        <br />
+        Você terá 13 rodadas para atacar e defender com disparos certeiros e
+        <br />
+        habilidades táticas. Com apenas uma vida por rodada, você deve pensar
+        <br />
+        mais rápido que o oponente se quiser sobreviver. Encare inimigos nos
+        <br />
+        modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!
+      </p>
+
+      <div class="riot">
+        <img src="./assets/title.svg" alt="" />
+
+        <p>Riot Games, Inc. é uma desenvolvedora,</p>
+        <p>editora e organizadora de torneios de</p>
+        <p>esportes eletrônicos americana com</p>
+        <p>sede em West Los Angeles, Califórnia.</p>
+        <p>Foi fundada em setembro de 2006</p>
+        <p>por Brandon Beck e Marc Merril.</p>
+
+        <button>
+          <a href="https://playvalorant.com/" target="_blank">DOWNLOAD GAME</a>
+        </button>
+      </div>
+    </section>
+    <section id="maps"></section>
+    <section id="agents"></section>
     <footer></footer>
   </body>
 </html>

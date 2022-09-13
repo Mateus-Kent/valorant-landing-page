@@ -39,10 +39,19 @@ header {
  cursor: pointer;
 }
 
+.linkPage {
+ text-decoration: none;
+ color: #fff;
+}
+
+.linkPage:hover {
+ color: #FF4655;
+}
+
 main {
  background-color: #1F1C26;
  width: 100%;
- height: 700px;
+ height: 100vh;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -51,17 +60,21 @@ main {
 
 .mainImg {
  height: 100%;
- width: 60%;
- z-index: 1000;
+ z-index: 100;
 }
 
 .socialMedias {
- width: 708px;
+ width: 700px;
  display: flex;
  align-items: center;
  position: absolute;
- bottom: 50px;
+ bottom: 120px;
  left: 5px;
+ z-index: 1;
+}
+
+.socialMedias a {
+ text-decoration: none;
 }
 
 .line {
@@ -69,3 +82,68 @@ main {
  width: 60%;
  background-color: #FF4655;
 }
+
+#about {
+ width: 100%;
+ height: 490px;
+ background-color: #E4E4E4;
+ position: relative;
+}
+
+.explanationTitle {
+ padding-top: 64px;
+ margin-left: 50px;
+ font-size: 1.875em;
+}
+
+.explanation {
+ margin-left: 50px;
+}
+
+.riot {
+ width: 451px;
+ height: 500px;
+ background-image: url(./assets/riot.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #FF4655;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ border-radius: 5px;
+
+ position: absolute;
+ bottom: 120px;
+ right: 120px;
+ z-index: 10000;
+}
+
+.riot img {
+ width: 231px;
+ height: 34px;
+ margin-top: 43px;
+ margin-bottom: 50px;
+}
+
+.riot p {
+ color: #FFF;
+}
+
+.riot button {
+ margin-top:54px ;
+ width: 346px;
+ height: 69px;
+ border-style: 3px solid;
+ border-color: #FFF;
+ font-size: 1.438em;
+ border-radius: 4px;
+ background-color: transparent;
+ cursor: pointer;
+ color: #FFF;
+ font-weight: 700;
+}
+
+.riot button a {
+ text-decoration: none;
+ color: #FFF;
+} 
