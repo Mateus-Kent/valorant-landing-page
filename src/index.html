@@ -12,12 +12,23 @@
       rel="stylesheet"
     />
 
-    <title>Valorant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/phosphor-icons"></script>
 
-    <link rel="icon" href="./assets/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="icon" href="./assets/logo.png" />
+
+    <title>Valorant</title>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
 
     <link
       rel="stylesheet"
@@ -28,7 +39,7 @@
   <body>
     <header>
       <div class="logo">
-        <img class="logoImg" src="./assets/logo.svg" alt="Logo Valorant" />
+        <img class="logoImg" src="./assets/logo.png" alt="Logo Valorant" />
       </div>
 
       <div class="menu">
@@ -125,8 +136,168 @@
         </button>
       </div>
     </section>
-    <section id="maps"></section>
+
+    <section id="maps">
+      <h1 class="explanationMaps">Mapas</h1>
+
+      <!-- Carrosel  -->
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/bind.svg" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>BIND</strong>
+                <p>
+                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
+                  oferecem caminhos diretos para os atacantes, e dois
+                  teleportadores de sentido único facilitam o flanqueamento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/split.svg" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>SPLIT</strong>
+                <p>
+                  Se quiser avançar, é preciso subir. Separados por uma área
+                  central elevada, dois pontos fornecem movimentação rápida com
+                  duas cordas ascendentes. Cada ponto tem uma torre imponente
+                  que é vital para o controle da área.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/haven.svg" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>HAVEN</strong>
+                <p>
+                  Sob um mosteiro abandonado, é possível ouvir agentes se
+                  enfrentando pelo controle de três pontos distintos. Neste
+                  mapa, há mais áreas para controlar. Em compensação, os
+                  defensores também conseguem aproveitar o território extra para
+                  coordenar investidas mais agressivas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/icebox.svg" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>ICEBOX</strong>
+                <p>
+                  Seu próximo campo de batalha será uma área de escavação
+                  secreta da Kingdom retomada pela força do Ártico. Você
+                  precisará ter cuidado com os terrenos horizontais dos dois
+                  pontos principais, que são protegidos por neve e metal.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/ascent.webp" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>ASCENT</strong>
+                <p>
+                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
+                  oferecem caminhos diretos para os atacantes, e dois
+                  teleportadores de sentido único facilitam o flanqueamento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/breeze.webp" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>BREEZE</strong>
+                <p>
+                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
+                  oferecem caminhos diretos para os atacantes, e dois
+                  teleportadores de sentido único facilitam o flanqueamento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/fracture.webp" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>FRACTURE</strong>
+                <p>
+                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
+                  oferecem caminhos diretos para os atacantes, e dois
+                  teleportadores de sentido único facilitam o flanqueamento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="mapCard">
+              <img src="./assets/pearl.webp" alt="Mapa Bind" />
+
+              <div class="mapExplanation">
+                <strong>PEARL</strong>
+                <p>
+                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
+                  oferecem caminhos diretos para os atacantes, e dois
+                  teleportadores de sentido único facilitam o flanqueamento.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
     <section id="agents"></section>
     <footer></footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      })
+    </script>
   </body>
 </html>

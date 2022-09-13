@@ -13,7 +13,6 @@ header {
  width: 100%;
  height: 100px;
  color: #FFFFFF;
-
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -40,12 +39,19 @@ header {
 }
 
 .linkPage {
+ font-family: "Inter", sans-serif;
+ ;
  text-decoration: none;
  color: #fff;
+ opacity: 0.7;
+ margin-right: 20px;
+ font-size: 0.875em;
+ font-weight: 500;
 }
 
 .linkPage:hover {
  color: #FF4655;
+ opacity: 1;
 }
 
 main {
@@ -85,19 +91,15 @@ main {
 
 #about {
  width: 100%;
- height: 490px;
+ height: 400px;
  background-color: #E4E4E4;
  position: relative;
+ padding-left: 50px;
 }
 
 .explanationTitle {
  padding-top: 64px;
- margin-left: 50px;
  font-size: 1.875em;
-}
-
-.explanation {
- margin-left: 50px;
 }
 
 .riot {
@@ -111,9 +113,8 @@ main {
  align-items: center;
  flex-direction: column;
  border-radius: 5px;
-
  position: absolute;
- bottom: 120px;
+ bottom: 100px;
  right: 120px;
  z-index: 10000;
 }
@@ -130,11 +131,10 @@ main {
 }
 
 .riot button {
- margin-top:54px ;
+ margin-top: 54px;
  width: 346px;
  height: 69px;
- border-style: 3px solid;
- border-color: #FFF;
+ border: 1px solid  #FFF;
  font-size: 1.438em;
  border-radius: 4px;
  background-color: transparent;
@@ -144,6 +144,53 @@ main {
 }
 
 .riot button a {
+ width: 100%;
+ height: 100%;
  text-decoration: none;
  color: #FFF;
-} 
+}
+
+#maps {
+ width: 100%;
+ height: 700px;
+ background-color: #E4E4E4;
+ padding-left: 50px;
+}
+
+.explanationMaps {
+ font-size: 1.875em;
+ margin-bottom: 15px;
+}
+
+.mapCard {
+ height: 400px;
+ width: 327px;
+ border-radius: 4px;
+ background-color: #FFF;
+ -webkit-box-shadow: 1px 4px 15px -3px #000000;
+ box-shadow: 1px 4px 15px -3px #000000;
+}
+
+.mapCard img {
+ width: 100%;
+ height: 219px; 
+ object-fit: cover;
+}
+
+.mapExplanation {
+ padding-left: 15px;
+}
+
+.mapExplanation strog {
+ font-size: 1.000em;
+}
+
+.mapExplanation p {
+ font-size: 0.813em;
+}
+
+.mySwiper {
+height: 450px;
+display: flex;
+gap: 10px;
+}
