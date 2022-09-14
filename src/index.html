@@ -19,11 +19,6 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-
     <link rel="icon" href="./assets/logo.png" />
 
     <title>Valorant</title>
@@ -39,7 +34,7 @@
   <body>
     <header>
       <div class="logo">
-        <img class="logoImg" src="./assets/logo.png" alt="Logo Valorant" />
+        <img class="logoImg" src="./assets/valorant.png" alt="Logo Valorant" />
       </div>
 
       <div class="menu">
@@ -64,7 +59,7 @@
           ><i
             class="ph-youtube-logo-fill"
             style="
-              color: #ff4655;
+              color: var(--red);
               margin-left: 10px;
               margin-right: 10px;
               cursor: pointer;
@@ -78,28 +73,28 @@
         >
           <i
             class="ph-instagram-logo-fill"
-            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+            style="color: var(--red); margin-right: 10px; cursor: pointer"
           ></i>
         </a>
 
         <a href="https://www.twitch.tv/valorant" target="_blank">
           <i
             class="ph-twitch-logo-fill"
-            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+            style="color: var(--red); margin-right: 10px; cursor: pointer"
           ></i
         ></a>
 
         <a href="https://www.reddit.com/r/VALORANT/" target="_blank"
           ><i
             class="ph-reddit-logo-fill"
-            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+            style="color: var(--red); margin-right: 10px; cursor: pointer"
           ></i
         ></a>
 
         <a href="https://twitter.com/playvalorant" target="_blank">
           <i
             class="ph-twitter-logo-fill"
-            style="color: #ff4655; margin-right: 10px; cursor: pointer"
+            style="color: var(--red); margin-right: 10px; cursor: pointer"
           ></i
         ></a>
 
@@ -132,7 +127,9 @@
         <p>por Brandon Beck e Marc Merril.</p>
 
         <button>
-          <a href="https://playvalorant.com/" target="_blank">DOWNLOAD GAME</a>
+          <a href="https://playvalorant.com/pt-br/download/" target="_blank"
+            >DOWNLOAD GAME</a
+          >
         </button>
       </div>
     </section>
@@ -142,153 +139,149 @@
 
       <!-- Carrosel  -->
 
-      <div class="swiper mySwiper">
+      <div class="swiper mapsSwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/bind.svg" alt="Mapa Bind" />
+            <img src="./assets/bind.svg" alt="Mapa Bind" />
 
-              <div class="mapExplanation">
-                <strong>BIND</strong>
-                <p>
-                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
-                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
-                  oferecem caminhos diretos para os atacantes, e dois
-                  teleportadores de sentido único facilitam o flanqueamento.
-                </p>
-              </div>
+            <div class="mapExplanation">
+              <p class="location">Rabat, Marrocos</p>
+              <strong>BIND</strong>
+              <p>
+                Dois pontos. Nenhuma área no meio. Você precisa escolher:
+                direita ou esquerda? E aí, qual vai ser? Ambos os lados oferecem
+                caminhos diretos para os atacantes, e dois teleportadores de
+                sentido único facilitam o flanqueamento.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/split.svg" alt="Mapa Bind" />
-
-              <div class="mapExplanation">
-                <strong>SPLIT</strong>
-                <p>
-                  Se quiser avançar, é preciso subir. Separados por uma área
-                  central elevada, dois pontos fornecem movimentação rápida com
-                  duas cordas ascendentes. Cada ponto tem uma torre imponente
-                  que é vital para o controle da área.
-                </p>
-              </div>
+            <img src="./assets/split.svg" alt="Mapa Bind" />
+            <div class="mapExplanation">
+              <p class="location">Tóquio, Japão</p>
+              <strong>SPLIT</strong>
+              <p>
+                Se quiser avançar, é preciso subir. Separados por uma área
+                central elevada, dois pontos fornecem movimentação rápida com
+                duas cordas ascendentes. Cada ponto tem uma torre imponente que
+                é vital para o controle da área. E não se esqueça: mantenha os
+                olhos abertos e focados nas áreas elevadas antes que tudo vá
+                pelos ares.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/haven.svg" alt="Mapa Bind" />
-
-              <div class="mapExplanation">
-                <strong>HAVEN</strong>
-                <p>
-                  Sob um mosteiro abandonado, é possível ouvir agentes se
-                  enfrentando pelo controle de três pontos distintos. Neste
-                  mapa, há mais áreas para controlar. Em compensação, os
-                  defensores também conseguem aproveitar o território extra para
-                  coordenar investidas mais agressivas.
-                </p>
-              </div>
+            <img src="./assets/haven.svg" alt="Mapa Bind" />
+            <div class="mapExplanation">
+              <p class="location">Timbu, Butão</p>
+              <strong>HAVEN</strong>
+              <p>
+                Sob um mosteiro abandonado, é possível ouvir agentes se
+                enfrentando pelo controle de três pontos distintos. Neste mapa,
+                há mais áreas para controlar. Em compensação, os defensores
+                também conseguem aproveitar o território extra para coordenar
+                investidas mais agressivas.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/icebox.svg" alt="Mapa Bind" />
+            <img src="./assets/icebox.svg" alt="Mapa Bind" />
 
-              <div class="mapExplanation">
-                <strong>ICEBOX</strong>
-                <p>
-                  Seu próximo campo de batalha será uma área de escavação
-                  secreta da Kingdom retomada pela força do Ártico. Você
-                  precisará ter cuidado com os terrenos horizontais dos dois
-                  pontos principais, que são protegidos por neve e metal.
-                </p>
-              </div>
+            <div class="mapExplanation">
+              <p class="location">Ilha Bennett, Rússia</p>
+              <strong>ICEBOX</strong>
+              <p>
+                Seu próximo campo de batalha será uma área de escavação secreta
+                da Kingdom retomada pela força do Ártico. Você precisará ter
+                cuidado com os terrenos horizontais dos dois pontos principais,
+                que são protegidos por neve e metal. Aproveite para usar as
+                tirolesas, e seus inimigos nunca verão seu ataque iminente.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/ascent.webp" alt="Mapa Bind" />
+            <img src="./assets/ascent.webp" alt="Mapa Bind" />
 
-              <div class="mapExplanation">
-                <strong>ASCENT</strong>
-                <p>
-                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
-                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
-                  oferecem caminhos diretos para os atacantes, e dois
-                  teleportadores de sentido único facilitam o flanqueamento.
-                </p>
-              </div>
+            <div class="mapExplanation">
+              <p class="location">Veneza, Itália</p>
+              <strong>ASCENT</strong>
+              <p>
+                Com várias opções de posicionamento e conflito, um território
+                aberto divide duas áreas em Ascent. Cada uma pode ser
+                fortificada por portas explosivas irreversíveis que, quando
+                derrubadas, forçam as equipes a destruí-las ou a acharem outra
+                maneira de prosseguir. Não deixe que o inimigo tome o seu
+                território.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/breeze.webp" alt="Mapa Bind" />
+            <img src="./assets/breeze.webp" alt="Mapa Bind" />
 
-              <div class="mapExplanation">
-                <strong>BREEZE</strong>
-                <p>
-                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
-                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
-                  oferecem caminhos diretos para os atacantes, e dois
-                  teleportadores de sentido único facilitam o flanqueamento.
-                </p>
-              </div>
+            <div class="mapExplanation">
+              <p class="location">Triângulo das Bermudas, Oceano Atlântico</p>
+              <strong>BREEZE</strong>
+              <p>
+                Conheça as ruínas históricas ou visite as grutas deste paraíso
+                tropical. Mas é bom se cobrir, pois temos espaços muito abertos
+                e embates de longa distância. Cuide dos seus flancos e você
+                poderá curtir a brisa do Breeze.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/fracture.webp" alt="Mapa Bind" />
+            <img src="./assets/fracture.webp" alt="Mapa Bind" />
 
-              <div class="mapExplanation">
-                <strong>FRACTURE</strong>
-                <p>
-                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
-                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
-                  oferecem caminhos diretos para os atacantes, e dois
-                  teleportadores de sentido único facilitam o flanqueamento.
-                </p>
-              </div>
+            <div class="mapExplanation">
+              <p class="location">Santa Fé, Novo México, Estados Unidos</p>
+              <strong>FRACTURE</strong>
+              <p>
+                Um local de pesquisas altamente confidencial partido ao meio por
+                um experimento com Radianita malsucedido. Com opções tão
+                divididas quanto o próprio mapa para os defensores, a escolha é
+                sua: encare os atacantes na própria base deles ou prepare o
+                terreno para um ataque iminente.
+              </p>
             </div>
           </div>
 
           <div class="swiper-slide">
-            <div class="mapCard">
-              <img src="./assets/pearl.webp" alt="Mapa Bind" />
-
-              <div class="mapExplanation">
-                <strong>PEARL</strong>
-                <p>
-                  Dois pontos. Nenhuma área no meio. Você precisa escolher:
-                  direita ou esquerda? E aí, qual vai ser? Ambos os lados
-                  oferecem caminhos diretos para os atacantes, e dois
-                  teleportadores de sentido único facilitam o flanqueamento.
-                </p>
-              </div>
+            <img src="./assets/pearl.webp" alt="Mapa Bind" />
+            <div class="mapExplanation">
+              <p class="location">Lisboa, Portugal</p>
+              <strong>PEARL</strong>
+              <p>
+                Atacantes avançam em direção aos Defensores neste vibrante mapa
+                subaquático com dois pontos principais. Pearl é um mapa sem
+                mecânicas focado no ambiente. Encare a batalha em um Meio
+                compacto ou em áreas mais alongadas no nosso primeiro mapa
+                situado na Terra Ômega.
+              </p>
             </div>
           </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+
+        <div class="movitationButtonsMap">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
 
     <section id="agents"></section>
     <footer></footer>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper('.mySwiper', {
-        slidesPerView: 4,
-        spaceBetween: 10,
+      new Swiper('.mapsSwiper', {
+        slidesPerView: 'auto',
+        spaceBetween: 24,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
