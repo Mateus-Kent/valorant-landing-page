@@ -112,7 +112,7 @@ main {
 .riot {
   width: 451px;
   height: 500px;
-  background-image: url(./assets/riot.png);
+  background-image: url(./assets/imgs/riot.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--red);
@@ -216,11 +216,84 @@ main {
   padding-left: 20px;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.mapsNext,
+.mapsPrev {
   color: var(--red) !important;
   opacity: 0.6;
   width: 11.25px;
   height: 22.5px;
   --swiper-navigation-size: 36px;
+}
+
+#agents {
+  height: 900px;
+  width: 100%;
+  background-image: url(./assets/imgs/agentsBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--red);
+  padding-top: 38px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.agentsSwiper {
+  height: 100%;
+  position: relative;
+}
+
+.agentsTitle {
+  margin-right: 33px;
+}
+
+.agentsCard {
+  width: 318px !important;
+  height: 738px !important;
+  background-color: #3F242F;
+  position: relative;
+}
+
+
+.agentsCard img {
+  width: 315px;
+  height: 724px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.agentInfo {
+  padding-left: 23px;
+  padding-top: 9px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--white);
+  height: 90px;
+  width: 313px;
+  background-color: var(--black);
+  position: absolute;
+  left: 42px;
+  bottom: -50px;
+}
+
+.agentInfo strong {
+  color: var(--background-white);
+  font-size: 1.500em;
+}
+
+.agentInfo strong:nth-child(even) {
+  color: var(--red);
+}
+
+
+.movitationButtonsAgents {
+  position: relative;
+  bottom: 35px;
+  display: flex;
+  width: 96px;
+  padding-left: 20px;
+}
+
+.agentsNext,
+.agentsPrev {
+  color: var(--background-white) !important;
 }
