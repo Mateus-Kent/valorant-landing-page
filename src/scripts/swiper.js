@@ -9,7 +9,6 @@ new Swiper('.mapsSwiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  mousewheel: true,
   keyboard: true
 })
 
@@ -24,6 +23,5 @@ new Swiper('.agentsSwiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  mousewheel: true,
   keyboard: true
 })
