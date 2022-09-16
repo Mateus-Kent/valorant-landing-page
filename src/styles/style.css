@@ -87,15 +87,20 @@ main {
   padding-left: 50px;
 }
 
+.explanation {
+  line-height: 28px;
+}
+
 .explanationTitle {
   padding-top: 64px;
   font-size: 1.875em;
+  margin-bottom: 10px;
 }
 
 .riot {
   width: 451px;
   height: 500px;
-  background-image: url(./assets/imgs/riot.png);
+  background-image: url(../assets/imgs/riot.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--red);
@@ -107,6 +112,7 @@ main {
   bottom: 100px;
   right: 120px;
   z-index: 10000;
+  line-height: 30px;
 }
 
 .riot img {
@@ -145,14 +151,17 @@ main {
   height: 700px;
   background-color: var(--background-white);
   padding-left: 50px;
+
 }
 
 .mapExplanation p {
   font-size: 0.813em;
+  padding-right: 17px;
 }
 
 .mapsSwiper {
   padding: 15px 0px !important;
+
   height: 568px;
   position: relative;
 }
@@ -211,7 +220,7 @@ main {
 #agents {
   height: 900px;
   width: 100%;
-  background-image: url(./assets/imgs/agentsBackground.png);
+  background-image: url(../assets/imgs/agentsBackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--red);
@@ -279,4 +288,101 @@ main {
 .agentsNext,
 .agentsPrev {
   color: var(--background-white) !important;
+}
+
+.blankSpace {
+  width: 100%;
+  height: 250px;
+  background-color: #E4E4E4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.registerEmail {
+  width: 972px;
+  height: 270px;
+  background-color: var(--white);
+  position: relative;
+  -webkit-box-shadow: 1px 4px 15px -3px #000000;
+  box-shadow: 1px 4px 15px -3px #000000;
+  margin-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerEmail strong {
+  color: var(--red);
+  font-weight: 900;
+  font-size: 1.250em;
+}
+
+
+.registerEmail p {
+  color: #1E1E1E;
+  font-weight: 600;
+  font-size: 1.250em;
+}
+
+.registerEmail form {
+  margin-top: 44px;
+}
+
+.registerEmail input {
+  width: 549px;
+  height: 58px;
+  border: none;
+  -webkit-box-shadow: 1px 1px 7px 0px #000000; 
+  box-shadow: 1px 1px 7px 0px #000000;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.registerEmail button {
+  border: none;
+  height: 58px;
+  width: 209px;
+  background-color: var(--red);
+  color: var(--white);
+  font-size: 1.250em;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  ;
+}
+
+.riotGames {
+  height: 183px;
+  width: 100%;
+  background-color: #1F1C26;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.corp {
+  background-color: var(--red);
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.corp p {
+  color: var(--white);
+  font: 0.750em;
 }
