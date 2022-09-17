@@ -37,6 +37,8 @@ header {
   margin-right: 20px;
   font-size: 0.875em;
   font-weight: 500;
+  display: inline-block;
+  position: relative;
 }
 
 .linkPage:hover {
@@ -323,7 +325,6 @@ footer {
 
 .registerEmail strong {
   color: var(--red);
-  font-weight: 900;
   font-size: 1.250em;
   font-weight: bold;
 }
@@ -331,7 +332,6 @@ footer {
 
 .registerEmail p {
   color: #1E1E1E;
-  font-weight: 600;
   font-size: 1.250em;
   text-transform: uppercase;
   font-weight: bold;
@@ -345,7 +345,7 @@ footer {
   width: 549px;
   height: 58px;
   border: none;
-  -webkit-box-shadow: 1px 1px 7px 0px #000000; 
+  -webkit-box-shadow: 1px 1px 7px 0px #000000;
   box-shadow: 1px 1px 7px 0px #000000;
   padding-left: 10px;
   margin-right: 10px;
