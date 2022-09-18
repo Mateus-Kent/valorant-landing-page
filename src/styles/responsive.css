@@ -149,6 +149,7 @@
   padding-right: 15px;
  }
 
+
  .logoImg {
   width: 90px;
  }
@@ -164,6 +165,7 @@
 
  .mainImg {
   height: 85%;
+  width: 400px;
   z-index: 100;
  }
 
@@ -246,16 +248,16 @@
  }
 
  .registerEmail strong {
-  font-size: 1.000em;
+  font-size: 0.875em;
  }
 
  .registerEmail p {
-  font-size: 1.000em;
+  font-size: 0.875em;
  }
 
 
  .registerEmail input {
-  width: 350px;
+  width: 300px;
  }
 
  .registerEmail button {
@@ -272,5 +274,7 @@
   justify-content: space-between;
  }
 
-
+ .corp p {
+  font-size: 0.875em;
+ }
 }
