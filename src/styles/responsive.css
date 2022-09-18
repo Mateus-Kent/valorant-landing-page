@@ -149,6 +149,10 @@
   padding-right: 15px;
  }
 
+ header {
+  padding-right: 0px;
+}
+
 
  .logoImg {
   width: 90px;
@@ -156,6 +160,8 @@
 
  .menu {
   height: 100%;
+  width: 100%; 
+  margin-left: 5px;
  }
 
  .linkPage {
