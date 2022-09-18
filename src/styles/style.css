@@ -410,9 +410,5 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--black);
-}
-
-::-webkit-scrollbar-thumb:hover {
   background-color: var(--red);
 }
